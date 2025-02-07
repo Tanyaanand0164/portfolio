@@ -1,0 +1,210 @@
+/* General Styles for the Site */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+/* Skills Section */
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section li {
+    font-size: 1rem;
+}
+
+/* Education Section */
+.education-section h3 {
+    font-size: 1.5rem;
+}
+
+.education-section p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contact-section .form-control {
+    border-radius: 8px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.contact-section .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Social Links */
+.social-links a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.social-links .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.social-links .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.social-links .btn-outline-dark:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Scroll to Top Button */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile (phones in portrait mode, up to 600px) */
+@media (max-width: 600px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .skills-section h2, .education-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-section ul, .education-section ul {
+        padding-left: 0;
+    }
+
+    .contact-section form {
+        padding: 20px;
+    }
+
+    .contact-section .form-label {
+        font-size: 0.9rem;
+    }
+
+    .social-links .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .navbar-nav {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablet (600px to 768px) */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .skills-section h2, .education-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-section form {
+        padding: 15px;
+    }
+
+    .contact-section .form-label {
+        font-size: 1rem;
+    }
+
+    .social-links .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Desktop (above 768px) */
+@media (min-width: 768px) {
+    .navbar-nav {
+        font-size: 1rem;
+    }
+
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .contact-section .form-control {
+        font-size: 1rem;
+    }
+
+    .social-links .btn {
+        font-size: 1.1rem;
+        padding: 12px 25px;
+    }
+}
+
+/* Large Screens (Above 1024px) */
+@media (min-width: 1024px) {
+    .hero-section h1 {
+        font-size: 4rem;
+    }
+
+    .contact-section .form-control {
+        font-size: 1.2rem;
+    }
+}
+
